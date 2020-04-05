@@ -1,0 +1,38 @@
+Begin Object Class=/Script/Engine.Material Name="Skybox_Starry"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/ThirdPersonBP/Maps/Conner/Black.Black"'
+      MaterialExpressionEditorX=-288
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=ACEF0D6A4E59DE44F6ECD4A38806F239
+      Material=Material'"Skybox_Starry"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/ThirdPersonBP/Maps/Conner/Sky_Gradient.Sky_Gradient"'
+      MaterialExpressionEditorX=-304
+      MaterialExpressionGuid=C69EECAA4656BA4E60699C87363192E3
+      Material=Material'"Skybox_Starry"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Specular=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EmissiveColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=622FCC734FAD49F2DA7900A2590301D6
+   ReferencedTextureGuids(0)=CC359F754E5D2AA136B6878020E553B4
+   ReferencedTextureGuids(1)=19BFF64B46CD211BF556B09E2729E70D
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Black",TextureReference=/Game/ThirdPersonBP/Maps/Conner/Black.Black)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="Sky_Gradient",TextureReference=/Game/ThirdPersonBP/Maps/Conner/Sky_Gradient.Sky_Gradient)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=91ACF67A4A6F9229D48563B2378CC5AE
+End Object

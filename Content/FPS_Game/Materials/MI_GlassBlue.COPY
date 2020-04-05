@@ -1,0 +1,15 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_GlassBlue"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=F6278D8B466ECEDFC8843B835AC3F15E
+   Parent=Material'"/Game/ThirdPersonBP/Maps/Manas/Mats/M_GlassMaster.M_GlassMaster"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Opacity"),ParameterValue=0.400000,ExpressionGUID=02EBBCEA49B5E7F636AD22B496A39967)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Base Colour"),ParameterValue=(R=0.468750,G=0.391293,B=0.312500,A=1.000000),ExpressionGUID=01EE451640A9D8348C41D7B6E464507A)
+   VectorParameterValues(1)=(ParameterInfo=(Name="Reflection"),ParameterValue=(R=1.000000,G=0.000000,B=0.000000,A=1.000000),ExpressionGUID=439E465945CC3D0B646D3282BAF1BC0B)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=62365D7547C9967A12073CB60783E347
+End Object
